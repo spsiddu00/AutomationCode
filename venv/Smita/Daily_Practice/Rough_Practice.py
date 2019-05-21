@@ -113,19 +113,93 @@
 # function(312,2)
 
 #####################
+#
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys #To Click on Enter Button Used in line Number 130
 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys #To Click on Enter Button Used in line Number 130
+# x = webdriver.Chrome("C:\\Users\\shiddanagouda.patil\\Desktop\\Learning\\Extra_Practice\\venv\\Driver\\chromedriver.exe") ## Chrome Exe FIle
+#
+# x.get("http://www.google.com") #### To enter URL
+#
+# Search_Box_Xpath = "//*[@id='tsf']/div[2]/div/div[1]/div/div[1]/input" ### Xpath of Search Box
+#
+# Search_Box_Obj = x.find_element_by_xpath(Search_Box_Xpath) ### Finding the Search Box using Xpath
+#
+# Search_Box_Obj.send_keys("HP") #### To ENter the Text in Search Box
+#
+# Search_Box_Obj.send_keys(Keys.ENTER) ### After the Search it clicks on the Enter Button
+##############
+# import os
+#
+# # for path,folder,filename in os.walk("C:\\Users\\shiddanagouda.patil\\Downloads"):
+# #     print(path)
+# #     print(folder)
+# #     print(filename)
+# #     print("----------------------------------------")
+#
+# print(os.listdir("C:\\Users\\shiddanagouda.patil\\Downloads\\Practice"))
 
-x = webdriver.Chrome("C:\\Users\\shiddanagouda.patil\\Desktop\\Learning\\Extra_Practice\\venv\\Driver\\chromedriver.exe") ## Chrome Exe FIle
 
-x.get("http://www.google.com") #### To enter URL
 
-Search_Box_Xpath = "//*[@id='tsf']/div[2]/div/div[1]/div/div[1]/input" ### Xpath of Search Box
 
-Search_Box_Obj = x.find_element_by_xpath(Search_Box_Xpath) ### Finding the Search Box using Xpath
 
-Search_Box_Obj.send_keys("HP") #### To ENter the Text in Search Box
 
-Search_Box_Obj.send_keys(Keys.ENTER) ### After the Search it clicks on the Enter Button
+
+
+
+
+
+#
+#
+# class Person():
+#
+#     def method_To_Return_Full_Name(self):
+#         firstname = input("Enter First name of the person")
+#         lastname = input("Enter the Second name of the Person")
+#         return (firstname + lastname)
+#
+#
+#
+#
+# class Employee(Person):
+#
+#     def new_Method(self):
+#         staffnum = input("Enter the total Number of Staff")
+#         fullname = super().method_To_Return_Full_Name()
+#         return (fullname, int(staffnum))
+
+
+class Stack:
+    def __init__(self):
+        self.items = [1,2,3,4]
+
+    def isEmpty(self):
+        return self.items == []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop()
+
+    def peek(self):
+        return self.items[len(self.items) - 1]
+
+    def size(self):
+        return len(self.items)
+
+
+
+(Stack().pop())
+
+
+
+
+
+
+
+
+
+
+
 
