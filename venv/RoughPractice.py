@@ -4,8 +4,8 @@
 #     def __init__(self,x,y):
 #         self.First = x
 #         self.Last = y
-#     # First = "Smita"
-#     # Last = " Sinha"
+#     # First = "Muttu"
+#     # Last = " Patil"
 #
 #     def fullname(self):
 #          Name = self.First + self.Last
@@ -13,13 +13,13 @@
 #          return Name
 #
 #
-# class Smita(Employee):
+# class Muttu(Employee):
 #     def length(self):
 #         x = super().fullname()
 #         print(len(x))
 #
 #
-# a = Smita("x","y")
+# a = Muttu("x","y")
 # a.length()
 #--------------------------------------------------------------
 # #
@@ -185,7 +185,7 @@ import re
 # t1.start()
 # # t1.join()
 # # t2.join()
-# print ("Smita")
+# print ("Muttu")
 
 
 ########### Extra Python Knowledge--------------- (Speacial In Python)
@@ -239,18 +239,18 @@ import re
 
 
 #---------------------------------------------------------------------
-# class Smita:
+# class Muttu:
 #     def Salary(self, x):
 #          print("Siddu Salary=",x)
 #
 #
-# class Siddu(Smita):
+# class Siddu(Muttu):
 #     def Salary(self, x):
-#         print("This is the Updated Method, SO Smita salary is:", x)
+#         print("This is the Updated Method, SO Muttu salary is:", x)
 #     print("")
 #
 #
-# y = Smita()
+# y = Muttu()
 # y.Salary(100)
 #
 # x = Siddu()
@@ -474,7 +474,7 @@ import re
 #     age = 25
 #
 #     def M1(self):
-#         print('Smita', self.age)
+#         print('Muttu', self.age)
 #
 #     @classmethod
 #     def M2(cls,):
